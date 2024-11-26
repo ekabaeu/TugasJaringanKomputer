@@ -50,7 +50,7 @@ function main() {
     const textureLoader = new THREE.TextureLoader(); // Memuat tekstur
 
     // Material kubus dengan tekstur
-    const cubeTextureMap = textureLoader.load('image/dkotak_texture.jpg'); 
+    const cubeTextureMap = textureLoader.load('image/kotak_texture.jpg'); 
     const cubeMaterial = new THREE.MeshStandardMaterial({ map: cubeTextureMap });
     
     // Material bola dengan normal map
